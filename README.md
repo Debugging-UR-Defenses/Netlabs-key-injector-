@@ -4,7 +4,7 @@ A simple GUI tool that simulates keyboard typing to inject scripts into environm
 
 ## Download
 
-**[Download key_injector.exe](https://github.com/Debugging-UR-Defenses/Netlabs-key-injector/releases)** - No Python required!
+**[Download key_injector.exe](https://github.com/Debugging-UR-Defenses/Netlabs-key-injector-/releases)** - No Python required!
 
 ## How to Use
 
@@ -22,8 +22,8 @@ A simple GUI tool that simulates keyboard typing to inject scripts into environm
 ## Run from Source
 
 ```bash
-git clone https://github.com/Debugging-UR-Defenses/Netlabs-key-injector.git
-cd Netlabs-key-injector
+git clone https://github.com/Debugging-UR-Defenses/Netlabs-key-injector-.git
+cd Netlabs-key-injector-
 pip install -r requirements.txt
 python key_injector.py
 ```
