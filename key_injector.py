@@ -32,7 +32,8 @@ class KeyInjectorApp(ctk.CTk):
         
         # Window setup
         self.title("NetLabs Key Injector")
-        self.geometry("650x580")
+        self.geometry("650x650")
+        self.minsize(500, 550)
         self.configure(fg_color=COLORS["bg_dark"])
         self.resizable(True, True)
         
@@ -94,7 +95,8 @@ class KeyInjectorApp(ctk.CTk):
             fg_color=COLORS["bg_dark"],
             text_color=COLORS["text"],
             border_width=0,
-            corner_radius=6
+            corner_radius=6,
+            height=200
         )
         self.text_area.pack(fill="both", expand=True, padx=8, pady=8)
         
