@@ -1,0 +1,51 @@
+Hostname,Driver/Module,Description,Vulnerable,CVE/Notes
+Ubuntu,pcnet32,AMD PCnet32 Network Driver,CHECK,Older VMware virtual NIC driver
+Ubuntu,mii,MII PHY Interface,LOW,Standard Linux kernel module
+Ubuntu,deflate,Deflate Compression Algorithm,LOW,Crypto module - generally safe
+Ubuntu,ctr,Counter Mode Encryption,LOW,Crypto module
+Ubuntu,twofish_generic,Twofish Cipher Algorithm,LOW,Encryption module
+Ubuntu,twofish_i586,Twofish i586 Optimized,LOW,Encryption module
+Ubuntu,twofish_common,Twofish Common Functions,LOW,Encryption module
+Ubuntu,camellia_generic,Camellia Cipher,LOW,Encryption module
+Ubuntu,serpent_sse2_i586,Serpent Cipher SSE2,LOW,Encryption module
+Ubuntu,ablk_helper,Async Block Cipher Helper,LOW,Crypto helper module
+Security-Onion,ipt_MASQUERADE,IPTables NAT Masquerade,LOW,Firewall module - keep updated with kernel
+Security-Onion,nf_nat_masquerade_ipv4,Netfilter NAT IPv4,LOW,Firewall module
+Security-Onion,nf_conntrack_netlink,Connection Tracking Netlink,LOW,Firewall module
+Security-Onion,nfnetlink,Netfilter Netlink Interface,LOW,Firewall module
+Security-Onion,xfrm_user,IPsec XFRM User Interface,CHECK,CVE-2017-7184 in older kernels
+Security-Onion,xfrm_algo,IPsec Algorithms,LOW,Crypto module
+Security-Onion,iptable_nat,IPTables NAT,LOW,Firewall module
+Security-Onion,nf_nat_ipv4,Netfilter NAT IPv4,LOW,Firewall module
+Security-Onion,br_netfilter,Bridge Netfilter,CHECK,CVE-2020-25211 in some versions
+Security-Onion,bridge,Ethernet Bridge,LOW,Network bridging module
+bt (DVL),vsock,VMware Virtual Socket,CHECK,VMware guest module - update VMware Tools
+bt (DVL),vmmemctl,VMware Memory Control,CHECK,VMware balloon driver
+bt (DVL),acpiphp,ACPI PCI Hotplug,LOW,Standard ACPI module
+bt (DVL),ipv6,IPv6 Protocol,CHECK,CVE-2017-9077 in older kernels
+bt (DVL),pcmcia,PCMCIA Core,LOW,Legacy card support
+bt (DVL),yenta_socket,Yenta CardBus Bridge,LOW,Legacy PCMCIA
+bt (DVL),rsrc_nonstatic,PCMCIA Resource Manager,LOW,Legacy module
+bt (DVL),pcmcia_core,PCMCIA Core Support,LOW,Legacy module
+bt (DVL),vmhgfs,VMware Host-Guest Filesystem,CHECK,Update VMware Tools
+bt (DVL),capability,POSIX Capabilities,LOW,Security module
+WIN12R2,Remote Desktop Device Redirector Bus,RDP Device Redirection,CHECK,CVE-2019-0708 (BlueKeep) related
+WIN12R2,Plug and Play Software Device Enumerator,PnP Enumerator,LOW,Standard Windows driver
+WIN12R2,Microsoft System Management BIOS Driver,SMBIOS Interface,LOW,Standard driver
+WIN12R2,WAN Miniport (PPPOE),PPPoE WAN Driver,LOW,Network driver
+WIN12R2,NDIS Virtual Network Adapter Enumerator,Virtual NIC Enumerator,LOW,Standard driver
+WIN12R2,WAN Miniport (L2TP),L2TP VPN Driver,CHECK,Ensure latest patches for VPN security
+WIN12R2,VMware VMCI Host Device,VMware Communication Interface,CHECK,Update VMware Tools
+WIN12R2,WAN Miniport (Network Monitor),Network Monitor Driver,LOW,Diagnostic driver
+WIN12R2,WAN Miniport (PPTP),PPTP VPN Driver,CHECK,PPTP is deprecated - use L2TP/IPsec or IKEv2
+WIN12R2,Microsoft Basic Render Driver,Basic Display Driver,LOW,Fallback display driver
+WIN16,Local Print Queue,Print Spooler,YES,CVE-2021-34527 (PrintNightmare) - critical
+WIN16,Microsoft ISATAP Adapter,IPv6 Transition,LOW,Tunneling adapter
+WIN16,Generic software device,Software Device,LOW,Standard driver
+WIN16,Remote Desktop Device Redirector Bus,RDP Redirection,CHECK,CVE-2019-0708 related
+WIN16,Plug and Play Software Device Enumerator,PnP Enumerator,LOW,Standard driver
+WIN16,Microsoft System Management BIOS Driver,SMBIOS Interface,LOW,Standard driver
+WIN16,NDIS Virtual Network Adapter Enumerator,Virtual NIC Enumerator,LOW,Standard driver
+WIN16,VMware VMCI Host Device,VMware Communication,CHECK,Update VMware Tools
+WIN16,Microsoft Basic Render Driver,Basic Display,LOW,Fallback driver
+WIN16,Hyper-V Virtual Machine Bus,VM Bus Driver,CHECK,Keep Windows updated

@@ -1,0 +1,6 @@
+Hostname,IP Address,MAC Address,CPU,RAM,Disk,OS,Kernel/Version
+Ubuntu,192.168.1.50,00:50:56:9c:59:78,Intel Xeon E5-2683 v3 @ 2.00GHz,-,11G,Ubuntu 12.04.5 LTS,3.13.0-32-generic
+Security-Onion,192.168.1.6,00:50:56:82:fc:0e,Intel Xeon E5-2683 v3 @ 2.00GHz,3.9G,16G,Ubuntu 14.04.5 LTS,4.4.0-131-generic
+bt (DVL),N/A,00:50:56:9c:5d:ba,Intel Xeon E5-2683 v3 @ 2.00GHz,-,7.9G,Damn Vulnerable Linux,2.6.20-BT-PwnSauce-NOSMP
+WIN12R2,10.1.1.12,00-50-56-8A-0D-49,Intel Xeon E5-2683 v3 @ 2.00GHz (x2),3 GB,40 GB,Windows Server 2012 R2 Standard,6.3.9600
+WIN16,192.168.1.100,00-50-56-82-56-8F,Intel Xeon E5-2683 v3 @ 2.00GHz (x4),3 GB,40 GB,Windows Server 2016 Standard,10.0.14393
